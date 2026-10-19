@@ -19,10 +19,20 @@ Nationwide homepage and document-service messaging; distinct Spanish-to-English 
 
 ## Measurement still needed
 
-Use Search Console to compare the last complete 28 days with the preceding 28 days, filtered to the United States. Record non-branded clicks, impressions, CTR, positions, queries and landing pages. Inspect indexing and submit the sitemap if needed. Confirm conversions through the existing HubSpot setup and verify whether Google Analytics is connected. No private Search Console or analytics results were available for this change. No ranking gain is claimed at deployment.
+Use Search Console to compare the last complete 28 days with the preceding 28 days, filtered to the United States. Record non-branded clicks, impressions, CTR, positions, queries and landing pages. Inspect indexing and submit the sitemap if needed. Confirm conversions through the existing HubSpot setup and verify whether Google Analytics is connected. Search Console was accessed after deployment; the baseline and indexing actions are recorded below. Google Analytics remains unverified. No ranking gain is claimed at deployment.
 
 Re-run duplicate-content and mobile performance checks after recrawling. Prior audit baseline (October 15): 20% duplicate content; that historical percentage is not a result of today's edits. Prior Semrush figures were estimates, not first-party traffic.
 
 ## SpyFu audit follow-up
 
 The October 19 12:22 PM crawl predates these changes: 99 health, 8 error occurrences, 90 warnings, 37 notices, 38 unpublished suggested fixes. Its duplicate-title group is the homepage at / and /index.html. Both identify / as canonical. Internal home links now use / consistently; GitHub Pages still serves /index.html as the same resource. Do not give those URLs different page content just to satisfy a duplicate alert. Article social cards/favicon declarations and concise titles/descriptions were completed after reviewing the report. Keyword-match warnings depend on SpyFu target assignments and require intent review before changing copy.
+
+## Search Console follow-up — October 19, 2026
+
+Nationwide measurement baseline: Web search, United States, September 20–October 17, 2026: 25 clicks, 1,723 impressions, 1.5% CTR, average position 15.2. All-country totals for that same period: 29 clicks, 2,161 impressions, 1.3% CTR, average position 17.6. These dates predate the SEO changes and do not establish a ranking gain.
+
+The page indexing report (updated October 11) listed 22 indexed and 7 excluded URLs. The academic-document and birth-certificate service URLs were discovered but not indexed. Google accepted individual indexing requests for both on October 19; acceptance is not confirmation of indexing. The HTTPS sitemap was resubmitted successfully on October 19 (18 discovered pages; last-read display still October 16 immediately after submission).
+
+The remaining excluded URLs were three normal HTTP/non-www homepage redirects, the retired /industries URL, and the retired /free-quote URL. Live requests confirmed the last two returned 404. They now use instant meta refresh redirects with fallback links to the existing homepage industries and quote sections. They stay out of the sitemap. These are HTML redirects, not configurable HTTP 301s on this host.
+
+A fresh SpyFu crawl was started October 19 at 3:37 PM Central (task db60731f-e44c-4bc7-8e17-8e24b00fba5f). It completed with 18 pages crawled, health 100, 0 errors, 18 warnings and 25 notices (previous screenshot: health 99, 8 errors, 90 warnings, 37 notices). Remaining issue types: internal-link opportunities, missing image title attributes, low text-to-code ratio and readability. SpyFu also says some pages could not be processed; its AI suggestions are not automatically approved or published. The two legacy redirects were deployed after this crawl and are not included in those results. The three corrected audit targets are English-to-Spanish translation services, certified translation services, and legal document translation services.

@@ -22,3 +22,7 @@ Nationwide homepage and document-service messaging; distinct Spanish-to-English 
 Use Search Console to compare the last complete 28 days with the preceding 28 days, filtered to the United States. Record non-branded clicks, impressions, CTR, positions, queries and landing pages. Inspect indexing and submit the sitemap if needed. Confirm conversions through the existing HubSpot setup and verify whether Google Analytics is connected. No private Search Console or analytics results were available for this change. No ranking gain is claimed at deployment.
 
 Re-run duplicate-content and mobile performance checks after recrawling. Prior audit baseline (October 15): 20% duplicate content; that historical percentage is not a result of today's edits. Prior Semrush figures were estimates, not first-party traffic.
+
+## SpyFu audit follow-up
+
+The October 19 12:22 PM crawl predates these changes: 99 health, 8 error occurrences, 90 warnings, 37 notices, 38 unpublished suggested fixes. Its duplicate-title group is the homepage at / and /index.html. Both identify / as canonical. Internal home links now use / consistently; GitHub Pages still serves /index.html as the same resource. Do not give those URLs different page content just to satisfy a duplicate alert. Article social cards/favicon declarations and concise titles/descriptions were completed after reviewing the report. Keyword-match warnings depend on SpyFu target assignments and require intent review before changing copy.

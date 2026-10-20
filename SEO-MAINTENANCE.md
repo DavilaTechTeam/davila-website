@@ -64,3 +64,11 @@ The three overlap flags already showed Remedy in place. Google indexing remains 
 ### Stylesheet-loading adjustment
 
 The post-cleanup crawl cleared all 22 prior notices and the low text-to-code flags, but identified external stylesheet loading as render-blocking. The final approach keeps the full CSS source assets and uses scripts/inline_page_styles.py to emit only page-used rules inline. It preserves all pseudo-state/element rules, all form rules, unsupported selectors, media conditions and the original order of retained rules. No stylesheet request is needed by the published HTML. Re-run the script after changing markup or CSS; it requires tinycss2, cssselect2 and lxml. The full-source styles remain referenced by data-source-styles for reproducibility. This supersedes the intermediate external-loading approach above.
+
+### Final loading correction deployed and verified
+
+Commit 4c7fba324bf6b44296c89b92348b54b2134ebf21 deployed successfully. The final 19 HTML pages total 502,518 bytes versus 739,726 at the start of this cleanup (237,208 fewer HTML bytes). They issue no stylesheet requests. The original CSS source assets are maintained for regeneration. Browser comparison of 46 measured elements across the homepage, certified service and certified guide found no changes to measured layout, font, spacing or colors. Live HTTP responses for all three exactly matched the final source. Scripts, source images, alt text, intake, canonicals and structured data passed their checks.
+
+The 12:16 AM crawl (9a1cc662-6c76-47b8-802a-5dcd88641df7) showed 0 notices: image-title and readability flags cleared, and low text-to-code warnings were absent. It newly flagged external CSS loading on 18 pages. That finding motivated the final inline page-used CSS approach, not an attempt to hide CSS loading with JavaScript or a broken no-script fallback.
+
+A final verification crawl was started October 20 at 12:25 AM Central (fc05e53e-fda0-42f4-8c8e-0fd9b8881713). All 18 pages were crawled; at the latest check the AI-writing stage was still running. Do not treat earlier warning totals as the final result of this revision or claim a search-ranking gain from tool scores. SpyFu’s Published counter tracks its own publishing workflow, not these direct GitHub deployments.

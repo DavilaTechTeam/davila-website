@@ -1,0 +1,13 @@
+
+.thanks-wrap{min-height:68vh;background:linear-gradient(135deg,#f6fbff 0%,#eef6ff 65%,#e8f1fb 100%);display:flex;align-items:center;padding:70px 0}
+.thanks-card{max-width:920px;margin:0 auto;background:#fff;border:1px solid #d9e4ee;border-radius:26px;padding:46px;box-shadow:0 24px 60px rgba(16,35,63,.10)}
+.thanks-card h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,6vw,68px);line-height:1.02;color:#10233f;margin:0 0 18px}
+.thanks-card .lead{font-size:19px;line-height:1.7;color:#52677b;margin-bottom:30px}
+.next-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:28px}
+.next-box{border:1px solid #dbe5ee;border-radius:20px;padding:26px;background:#fbfdff}
+.next-box h2{font-size:23px;color:#10233f;margin:0 0 10px}
+.next-box p{color:#5b6e80;line-height:1.65;margin:0 0 18px}
+.next-box.primary{background:#102a46;color:#fff;border-color:#102a46}
+.next-box.primary h2{color:#fff}
+.next-box.primary p{color:#d9e6f1}
+@media(max-width:760px){.next-grid{grid-template-columns:1fr}.thanks-card{padding:30px 22px}.thanks-wrap{padding:42px 0}}

@@ -40,3 +40,13 @@ A fresh SpyFu crawl was started October 19 at 3:37 PM Central (task db60731f-e44
 ## Nationwide keyword implementation — October 19, late evening
 
 See SEO-KEYWORD-MAP.md for the 18-page editorial target map, purpose boundaries and measurement limits. Titles and main headings now describe each page’s distinct purpose. Added document-specific preparation, certification/delivery questions and cross-links; general interpreting focuses on meeting logistics while legal interpreting owns proceeding needs. Social text and applicable Service/Article metadata match the revised page descriptions. Source verification does not establish that the two SpyFu overlap flags are cleared; a fresh audit is still required.
+
+## Verification completed — October 20, 2026, overnight
+
+The browser was reconnected and SpyFu sign-in restored. All 18 primary targets were saved and confirmed against this map in the live UI. A clean follow-up crawl was started at 12:02 AM Central after the assignments were completed: task a322f5d8-dd04-4355-ab15-935384fe628f. It completed with 18/18 pages, health 100, 0 errors, 16 warnings and 22 notices. The refreshed overview and its issue list agreed on these counts. No missing-target-title or missing-target-H1 issue was listed.
+
+Warning breakdown: title improvement suggestions 2; meta description improvement suggestions 2; Open Graph text improvement suggestions 2; keyword-overlap targets 3; H1 improvement suggestion 1; low text-to-code ratio 6. Notices: optional image title attributes on 18 pages; readability on 4 pages. The three overlap targets were certified translation, interpreting and marriage certificate translation; all showed Already linked / Remedy in place, with 0 fixable rows. This does not mean every related page has ceased to rank for the same phrase.
+
+SpyFu also displayed “Some pages could not be processed” for its suggestions. The crawl completed, but the AI recommendation coverage is incomplete; the reduced suggestion count is not evidence of a ranking gain. The final count differs from the earlier 11:57 PM run, which had processed older targets while assignments were being updated. No automatic SpyFu suggestions were published.
+
+Search Console live tests on October 19 at 11:55–11:56 PM reported both academic-document and birth-certificate service pages available to Google and eligible for indexing, with one valid Breadcrumb item on each. The Google-index view still reported both as not indexed, with no recorded crawl. Individual indexing requests had already been accepted earlier that day. The sitemap showed Success, 18 discovered pages, and an updated last-read date of October 19. This verifies accessibility and discovery, not completed indexing or rankings.
